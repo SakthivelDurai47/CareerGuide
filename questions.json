@@ -1,0 +1,74 @@
+{
+    "Medical": [
+        "I enjoy helping people with their health and well-being.",
+        "I remain calm and focused during emergencies.",
+        "I am comfortable seeing blood, injuries, or medical procedures.",
+        "I pay close attention to details and rarely miss small mistakes.",
+        "I am good at memorizing and recalling complex information.",
+        "I find biology and human anatomy fascinating.",
+        "I am willing to study for many years to pursue my dream career.",
+        "I can manage stress and long working hours.",
+        "I enjoy solving medical or health-related problems.",
+        "I care deeply about improving other people\u2019s lives."
+    ],
+    "Technical": [
+        "I enjoy solving logical and technical problems.",
+        "I like working with computers, machines, or tools.",
+        "I often try to understand how things work behind the scenes.",
+        "I am comfortable with math and science subjects.",
+        "I enjoy coding, troubleshooting, or building things.",
+        "I am a detail-oriented person.",
+        "I stay curious about the latest technology and gadgets.",
+        "I like working on complex problems that require analysis.",
+        "I enjoy learning new programming languages or software.",
+        "I prefer hands-on, practical work to theoretical studies."
+    ],
+    "Creative": [
+        "I enjoy expressing myself through art, music, writing, or performance.",
+        "I often come up with original ideas or solutions.",
+        "I prefer work that allows freedom over strict rules.",
+        "I enjoy visualizing or designing things.",
+        "I am emotionally expressive and enjoy storytelling.",
+        "I feel energized by creating something new.",
+        "I find beauty and meaning in colors, textures, and sounds.",
+        "I work well without needing constant structure or supervision.",
+        "I value imagination more than strict logic.",
+        "I enjoy experimenting and taking creative risks."
+    ],
+    "Business": [
+        "I enjoy planning and organizing activities or resources.",
+        "I often think of ideas for new businesses or products.",
+        "I feel confident in convincing or influencing others.",
+        "I enjoy analyzing money, profits, or market trends.",
+        "I am interested in leadership and taking responsibility.",
+        "I am motivated by financial success and recognition.",
+        "I enjoy competitive environments and challenges.",
+        "I am comfortable making tough decisions under pressure.",
+        "I can stay disciplined and focused to reach long-term goals.",
+        "I keep up with business news and economic trends."
+    ],
+    "Public Services": [
+        "I feel a strong sense of duty to serve my country or community.",
+        "I believe in law, order, and justice.",
+        "I am disciplined and follow rules carefully.",
+        "I remain calm and clear-headed in stressful situations.",
+        "I am willing to work hard even when recognition is low.",
+        "I am physically fit or willing to become so.",
+        "I like solving problems that affect society.",
+        "I believe in fairness, equality, and serving others.",
+        "I can handle criticism and public accountability.",
+        "I feel proud when contributing to something bigger than myself."
+    ],
+    "Skilled Trades": [
+        "I enjoy hands-on work more than desk jobs.",
+        "I like using tools or equipment to build or fix things.",
+        "I learn better by doing rather than reading.",
+        "I am comfortable working in physically active roles.",
+        "I take pride in completing practical tasks efficiently.",
+        "I enjoy working with my hands to create or repair.",
+        "I prefer seeing the immediate result of my work.",
+        "I am good at following instructions and safety guidelines.",
+        "I like learning specific skills that are always in demand.",
+        "I enjoy routine and repetition when perfecting a skill."
+    ]
+}

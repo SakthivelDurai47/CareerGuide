@@ -1,0 +1,611 @@
+{
+    "Medical": [
+      {
+        "career": "Doctor",
+        "description": "Diagnoses and treats illnesses and injuries.",
+        "required_skills": ["Medical Knowledge", "Empathy", "Decision-Making"],
+        "education": "MBBS",
+        "average_salary_inr": "₹6–18 LPA",
+        "industry": "Healthcare"
+      },
+      {
+        "career": "Nurse",
+        "description": "Provides care and assistance to patients in medical settings.",
+        "required_skills": ["Caregiving", "Medical Procedures", "Teamwork"],
+        "education": "GNM or B.Sc Nursing",
+        "average_salary_inr": "₹3–10 LPA",
+        "industry": "Healthcare"
+      },
+      {
+        "career": "Pharmacist",
+        "description": "Prepares and dispenses medication prescribed by doctors.",
+        "required_skills": ["Pharmacology", "Communication", "Detail-Oriented"],
+        "education": "B.Pharm or D.Pharm",
+        "average_salary_inr": "₹2.5–7 LPA",
+        "industry": "Healthcare"
+      },
+      {
+        "career": "Physiotherapist",
+        "description": "Helps patients recover from physical injuries and surgeries.",
+        "required_skills": ["Anatomy", "Patience", "Therapeutic Techniques"],
+        "education": "BPT (Bachelor of Physiotherapy)",
+        "average_salary_inr": "₹3–8 LPA",
+        "industry": "Rehabilitation"
+      },
+      {
+        "career": "Dentist",
+        "description": "Treats oral and dental health issues.",
+        "required_skills": ["Manual Dexterity", "Precision", "Empathy"],
+        "education": "BDS (Bachelor of Dental Surgery)",
+        "average_salary_inr": "₹4–12 LPA",
+        "industry": "Dental Care"
+      },
+      {
+        "career": "Radiologist",
+        "description": "Uses imaging technology to diagnose diseases.",
+        "required_skills": ["Attention to Detail", "Technical Knowledge"],
+        "education": "MBBS + MD in Radiology",
+        "average_salary_inr": "₹8–25 LPA",
+        "industry": "Medical Diagnostics"
+      },
+      {
+        "career": "Medical Lab Technician",
+        "description": "Conducts tests and analyzes samples in laboratories.",
+        "required_skills": ["Precision", "Lab Procedures"],
+        "education": "DMLT or B.Sc MLT",
+        "average_salary_inr": "₹2–5 LPA",
+        "industry": "Diagnostics"
+      },
+      {
+        "career": "Surgeon",
+        "description": "Performs surgeries to treat injuries and diseases.",
+        "required_skills": ["Steady Hands", "High Focus", "Advanced Knowledge"],
+        "education": "MBBS + MS",
+        "average_salary_inr": "₹15–40 LPA",
+        "industry": "Surgical Medicine"
+      },
+      {
+        "career": "Psychiatrist",
+        "description": "Diagnoses and treats mental health disorders.",
+        "required_skills": ["Psychology", "Counseling", "Diagnosis"],
+        "education": "MBBS + MD in Psychiatry",
+        "average_salary_inr": "₹6–20 LPA",
+        "industry": "Mental Health"
+      },
+      {
+        "career": "Optometrist",
+        "description": "Examines eyes and prescribes glasses or contact lenses.",
+        "required_skills": ["Optical Knowledge", "Equipment Handling"],
+        "education": "B.Optom (Bachelor of Optometry)",
+        "average_salary_inr": "₹3–7 LPA",
+        "industry": "Vision Care"
+      }
+    ],
+  
+    "Technical": [
+      {
+        "career": "Software Developer",
+        "description": "Designs and codes software applications.",
+        "required_skills": ["Coding", "Logical Thinking", "Problem Solving"],
+        "education": "B.Tech/B.Sc in Computer Science",
+        "average_salary_inr": "₹6–20 LPA",
+        "industry": "IT"
+      },
+      {
+        "career": "Data Scientist",
+        "description": "Analyzes and interprets complex data for decision-making.",
+        "required_skills": ["Statistics", "Machine Learning", "Programming"],
+        "education": "B.Sc/M.Sc in Data Science",
+        "average_salary_inr": "₹10–30 LPA",
+        "industry": "Analytics"
+      },
+      {
+        "career": "AI/ML Engineer",
+        "description": "Builds artificial intelligence systems and machine learning models.",
+        "required_skills": ["Python", "Algorithms", "Math"],
+        "education": "B.Tech + AI/ML Certification",
+        "average_salary_inr": "₹8–25 LPA",
+        "industry": "Technology"
+      },
+      {
+        "career": "Cybersecurity Analyst",
+        "description": "Protects systems and networks from digital attacks.",
+        "required_skills": ["Networking", "Security Protocols", "Ethical Hacking"],
+        "education": "B.Tech + Security Certification (CEH, CISSP)",
+        "average_salary_inr": "₹6–15 LPA",
+        "industry": "IT Security"
+      },
+      {
+        "career": "Cloud Engineer",
+        "description": "Manages cloud-based infrastructure and services.",
+        "required_skills": ["AWS", "Azure", "DevOps"],
+        "education": "B.Tech + Cloud Certification",
+        "average_salary_inr": "₹8–22 LPA",
+        "industry": "Cloud Computing"
+      },
+      {
+        "career": "Mechanical Engineer",
+        "description": "Designs and tests mechanical systems and machinery.",
+        "required_skills": ["CAD", "Problem Solving", "Thermodynamics"],
+        "education": "B.E/B.Tech in Mechanical Engineering",
+        "average_salary_inr": "₹4–10 LPA",
+        "industry": "Manufacturing"
+      },
+      {
+        "career": "Civil Engineer",
+        "description": "Plans, designs, and supervises infrastructure projects.",
+        "required_skills": ["Structural Design", "Project Management"],
+        "education": "B.E/B.Tech in Civil Engineering",
+        "average_salary_inr": "₹3–9 LPA",
+        "industry": "Construction"
+      },
+      {
+        "career": "Electronics Engineer",
+        "description": "Works on design and development of electronic devices.",
+        "required_skills": ["Circuits", "Embedded Systems", "Hardware Knowledge"],
+        "education": "B.E in ECE",
+        "average_salary_inr": "₹3–10 LPA",
+        "industry": "Electronics"
+      },
+      {
+        "career": "Game Developer",
+        "description": "Creates video games using game engines and programming.",
+        "required_skills": ["Unity/Unreal", "Graphics", "Programming"],
+        "education": "B.Sc in Game Design or Computer Science",
+        "average_salary_inr": "₹4–15 LPA",
+        "industry": "Gaming"
+      },
+      {
+        "career": "Blockchain Developer",
+        "description": "Builds decentralized applications and blockchain systems.",
+        "required_skills": ["Cryptography", "Smart Contracts", "Solidity"],
+        "education": "Any tech degree + Blockchain Certification",
+        "average_salary_inr": "₹8–20 LPA",
+        "industry": "Fintech"
+      }
+    ],
+  
+    "Creative": [
+      {
+        "career": "Graphic Designer",
+        "description": "Creates visuals for branding, ads, and communication.",
+        "required_skills": ["Design Tools", "Creativity", "Typography"],
+        "education": "B.Des or Diploma in Graphic Design",
+        "average_salary_inr": "₹2.5–8 LPA",
+        "industry": "Design"
+      },
+      {
+        "career": "Fashion Designer",
+        "description": "Designs clothing and accessories based on trends.",
+        "required_skills": ["Fashion Trends", "Sketching", "Sewing"],
+        "education": "B.Des in Fashion Design",
+        "average_salary_inr": "₹3–12 LPA",
+        "industry": "Fashion"
+      },
+      {
+        "career": "Interior Designer",
+        "description": "Designs aesthetically pleasing and functional indoor spaces.",
+        "required_skills": ["AutoCAD", "Color Theory", "Spatial Planning"],
+        "education": "B.Des in Interior Design",
+        "average_salary_inr": "₹3–10 LPA",
+        "industry": "Architecture"
+      },
+      {
+        "career": "Animator",
+        "description": "Creates animations for films, games, and videos.",
+        "required_skills": ["2D/3D Animation", "Storyboarding", "Creativity"],
+        "education": "Diploma or B.Sc in Animation",
+        "average_salary_inr": "₹3–10 LPA",
+        "industry": "Media"
+      },
+      {
+        "career": "Video Editor",
+        "description": "Edits video content for media, marketing, or films.",
+        "required_skills": ["Editing Tools", "Timing", "Storytelling"],
+        "education": "Diploma in Video Editing",
+        "average_salary_inr": "₹2–7 LPA",
+        "industry": "Film & Media"
+      },
+      {
+        "career": "Photographer",
+        "description": "Captures professional images for various industries.",
+        "required_skills": ["Camera Handling", "Lighting", "Creativity"],
+        "education": "Certification or Diploma",
+        "average_salary_inr": "₹1.5–6 LPA",
+        "industry": "Media"
+      },
+      {
+        "career": "Content Writer",
+        "description": "Creates engaging written content for digital platforms.",
+        "required_skills": ["Grammar", "SEO", "Creativity"],
+        "education": "Any degree + Content Writing course",
+        "average_salary_inr": "₹2.5–8 LPA",
+        "industry": "Marketing"
+      },
+      {
+        "career": "Art Director",
+        "description": "Leads creative teams in visual branding and campaigns.",
+        "required_skills": ["Design Thinking", "Team Management"],
+        "education": "B.Des or Fine Arts",
+        "average_salary_inr": "₹6–20 LPA",
+        "industry": "Advertising"
+      },
+      {
+        "career": "Music Producer",
+        "description": "Produces and arranges music for artists or media.",
+        "required_skills": ["Music Theory", "DAWs", "Sound Design"],
+        "education": "Music Production Course",
+        "average_salary_inr": "₹4–15 LPA",
+        "industry": "Music"
+      },
+      {
+        "career": "Makeup Artist",
+        "description": "Applies makeup for clients in fashion, film, or events.",
+        "required_skills": ["Cosmetics Knowledge", "Creativity", "Color Theory"],
+        "education": "Beautician/Makeup Course",
+        "average_salary_inr": "₹1.5–6 LPA",
+        "industry": "Fashion & Events"
+      }
+    ],
+  
+  "Business": [
+    {
+      "career": "Entrepreneur",
+      "description": "Starts and manages a business venture.",
+      "required_skills": [
+        "Leadership",
+        "Risk Management",
+        "Finance"
+      ],
+      "education": "Any degree + business experience",
+      "average_salary_inr": "Varies (₹5 LPA to unlimited)",
+      "industry": "Business"
+    },
+    {
+      "career": "Chartered Accountant",
+      "description": "Manages accounts, audits, and taxation for organizations.",
+      "required_skills": [
+        "Accounting",
+        "Tax Laws",
+        "Analytical Skills"
+      ],
+      "education": "CA Course after 12th/Graduation",
+      "average_salary_inr": "₹6–25 LPA",
+      "industry": "Finance"
+    },
+    {
+      "career": "Marketing Manager",
+      "description": "Plans and executes marketing strategies to promote products.",
+      "required_skills": [
+        "Creativity",
+        "Analytics",
+        "Communication"
+      ],
+      "education": "MBA in Marketing",
+      "average_salary_inr": "₹6–20 LPA",
+      "industry": "Marketing"
+    },
+    {
+      "career": "Financial Analyst",
+      "description": "Analyzes financial data to help businesses make decisions.",
+      "required_skills": [
+        "Excel",
+        "Analytics",
+        "Finance"
+      ],
+      "education": "B.Com + MBA or CFA",
+      "average_salary_inr": "₹5–15 LPA",
+      "industry": "Finance"
+    },
+    {
+      "career": "Human Resource Manager",
+      "description": "Manages recruitment, training, and employee relations.",
+      "required_skills": [
+        "People Skills",
+        "Management",
+        "Organization"
+      ],
+      "education": "MBA in HR",
+      "average_salary_inr": "₹4–12 LPA",
+      "industry": "Corporate"
+    },
+    {
+      "career": "Business Analyst",
+      "description": "Analyzes business processes and suggests improvements.",
+      "required_skills": [
+        "Analytics",
+        "Communication",
+        "Problem Solving"
+      ],
+      "education": "BBA/MBA or related fields",
+      "average_salary_inr": "₹6–18 LPA",
+      "industry": "Consulting"
+    },
+    {
+      "career": "Investment Banker",
+      "description": "Helps companies raise capital and manage investments.",
+      "required_skills": [
+        "Finance",
+        "Negotiation",
+        "Research"
+      ],
+      "education": "MBA (Finance) or CFA",
+      "average_salary_inr": "₹10–40 LPA",
+      "industry": "Finance"
+    },
+    {
+      "career": "E-commerce Manager",
+      "description": "Manages online sales and marketing strategies.",
+      "required_skills": [
+        "Digital Marketing",
+        "Logistics",
+        "SEO"
+      ],
+      "education": "BBA + E-commerce training",
+      "average_salary_inr": "₹4–12 LPA",
+      "industry": "Retail"
+    },
+    {
+      "career": "Operations Manager",
+      "description": "Oversees production, logistics, and supply chains.",
+      "required_skills": [
+        "Efficiency",
+        "Planning",
+        "Team Management"
+      ],
+      "education": "MBA in Operations",
+      "average_salary_inr": "₹6–18 LPA",
+      "industry": "Manufacturing & Logistics"
+    },
+    {
+      "career": "Retail Manager",
+      "description": "Manages day-to-day operations of a retail store.",
+      "required_skills": [
+        "Customer Service",
+        "Sales",
+        "Inventory"
+      ],
+      "education": "BBA or Diploma in Retail",
+      "average_salary_inr": "₹3–10 LPA",
+      "industry": "Retail"
+    }
+  ],
+  "Public_Services": [
+    {
+      "career": "IAS Officer",
+      "description": "Top administrative officer in Indian civil services.",
+      "required_skills": [
+        "Leadership",
+        "Governance",
+        "Policy"
+      ],
+      "education": "Any degree + UPSC",
+      "average_salary_inr": "₹6–18 LPA",
+      "industry": "Government"
+    },
+    {
+      "career": "IPS Officer",
+      "description": "Leads law enforcement agencies and maintains order.",
+      "required_skills": [
+        "Discipline",
+        "Courage",
+        "Leadership"
+      ],
+      "education": "Any degree + UPSC",
+      "average_salary_inr": "₹6–15 LPA",
+      "industry": "Police Service"
+    },
+    {
+      "career": "IFS Officer",
+      "description": "Represents India abroad as a diplomat.",
+      "required_skills": [
+        "Foreign Languages",
+        "Diplomacy",
+        "Communication"
+      ],
+      "education": "Any degree + UPSC",
+      "average_salary_inr": "₹6–20 LPA",
+      "industry": "Foreign Service"
+    },
+    {
+      "career": "Indian Army Officer",
+      "description": "Serves and defends the nation as a military officer.",
+      "required_skills": [
+        "Discipline",
+        "Tactics",
+        "Leadership"
+      ],
+      "education": "NDA or CDS route",
+      "average_salary_inr": "₹6–16 LPA",
+      "industry": "Defense"
+    },
+    {
+      "career": "Police Sub-Inspector",
+      "description": "Maintains law and order and investigates crimes.",
+      "required_skills": [
+        "Observation",
+        "Investigation",
+        "Decision Making"
+      ],
+      "education": "Any degree + Police exam",
+      "average_salary_inr": "₹3–8 LPA",
+      "industry": "Police"
+    },
+    {
+      "career": "Forest Officer",
+      "description": "Protects wildlife and manages forest resources.",
+      "required_skills": [
+        "Biology",
+        "Law Enforcement",
+        "Patience"
+      ],
+      "education": "Any degree + Forest Service Exam",
+      "average_salary_inr": "₹4–10 LPA",
+      "industry": "Forestry"
+    },
+    {
+      "career": "Public Sector Bank Officer",
+      "description": "Manages banking operations and public services.",
+      "required_skills": [
+        "Banking",
+        "Customer Service",
+        "Math"
+      ],
+      "education": "Any degree + IBPS/SBI PO",
+      "average_salary_inr": "₹4–9 LPA",
+      "industry": "Banking"
+    },
+    {
+      "career": "Post Officer",
+      "description": "Handles postal services and delivery systems.",
+      "required_skills": [
+        "Organization",
+        "Communication"
+      ],
+      "education": "Any degree + Postal Exam",
+      "average_salary_inr": "₹3–6 LPA",
+      "industry": "Postal Services"
+    },
+    {
+      "career": "Customs Officer",
+      "description": "Monitors goods imported/exported at ports.",
+      "required_skills": [
+        "Inspection",
+        "Law",
+        "Vigilance"
+      ],
+      "education": "Any degree + UPSC",
+      "average_salary_inr": "₹6–12 LPA",
+      "industry": "Customs & Excise"
+    },
+    {
+      "career": "Railway Officer",
+      "description": "Manages operations in Indian Railways.",
+      "required_skills": [
+        "Planning",
+        "Logistics",
+        "Engineering"
+      ],
+      "education": "Any degree + RRB Exam",
+      "average_salary_inr": "₹4–10 LPA",
+      "industry": "Transportation"
+    }
+  ],
+  "Skilled_Trades": [
+    {
+      "career": "Electrician",
+      "description": "Installs and repairs electrical systems.",
+      "required_skills": [
+        "Technical Skills",
+        "Safety",
+        "Blueprint Reading"
+      ],
+      "education": "ITI in Electrical",
+      "average_salary_inr": "₹2–6 LPA",
+      "industry": "Construction"
+    },
+    {
+      "career": "Plumber",
+      "description": "Installs and maintains plumbing systems.",
+      "required_skills": [
+        "Problem Solving",
+        "Physical Work"
+      ],
+      "education": "ITI in Plumbing",
+      "average_salary_inr": "₹2–5 LPA",
+      "industry": "Construction"
+    },
+    {
+      "career": "Welder",
+      "description": "Joins metal parts using welding tools.",
+      "required_skills": [
+        "Precision",
+        "Blueprint Reading"
+      ],
+      "education": "ITI in Welding",
+      "average_salary_inr": "₹2–6 LPA",
+      "industry": "Manufacturing"
+    },
+    {
+      "career": "Tailor",
+      "description": "Sews and alters clothes to fit customers.",
+      "required_skills": [
+        "Sewing",
+        "Creativity",
+        "Measurements"
+      ],
+      "education": "Diploma or Apprenticeship",
+      "average_salary_inr": "₹1.5–5 LPA",
+      "industry": "Fashion"
+    },
+    {
+      "career": "Mechanic",
+      "description": "Repairs and maintains vehicles or machines.",
+      "required_skills": [
+        "Diagnosis",
+        "Tool Handling",
+        "Problem Solving"
+      ],
+      "education": "ITI in Mechanic Trades",
+      "average_salary_inr": "₹2–6 LPA",
+      "industry": "Automobile"
+    },
+    {
+      "career": "Carpenter",
+      "description": "Builds structures and furniture using wood.",
+      "required_skills": [
+        "Measurement",
+        "Craftsmanship"
+      ],
+      "education": "Apprenticeship or ITI",
+      "average_salary_inr": "₹2–5 LPA",
+      "industry": "Construction"
+    },
+    {
+      "career": "Beautician",
+      "description": "Provides beauty treatments like skincare and makeup.",
+      "required_skills": [
+        "Cosmetology",
+        "Communication"
+      ],
+      "education": "Beautician Course",
+      "average_salary_inr": "₹1.5–4 LPA",
+      "industry": "Wellness"
+    },
+    {
+      "career": "Chef",
+      "description": "Prepares meals in restaurants or hotels.",
+      "required_skills": [
+        "Cooking",
+        "Creativity",
+        "Time Management"
+      ],
+      "education": "Hotel Management or Culinary Diploma",
+      "average_salary_inr": "₹3–10 LPA",
+      "industry": "Hospitality"
+    },
+    {
+      "career": "Barber",
+      "description": "Cuts and styles hair for clients.",
+      "required_skills": [
+        "Hair Styling",
+        "Client Handling"
+      ],
+      "education": "Training Course or Apprenticeship",
+      "average_salary_inr": "₹1.5–4 LPA",
+      "industry": "Personal Care"
+    },
+    {
+      "career": "Driver",
+      "description": "Drives vehicles for transport or logistics.",
+      "required_skills": [
+        "Navigation",
+        "Safety",
+        "Driving License"
+      ],
+      "education": "Basic Education + License",
+      "average_salary_inr": "₹2–6 LPA",
+      "industry": "Transport"
+    }
+  ]
+}

@@ -1,0 +1,334 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Career Survey</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header id="intro">
+      <h1>Career Gudiance Survey</h1>
+      <p>
+        Welcome to the Career Gudiance Survey! <br /><br />Please answer the
+        following 60 thoughtfully designed questions to help uncover the career
+        path that best matches your unique strengths, interests, and
+        personality. <br /><br />Your responses will guide us in identifying
+        which field (Medical, Technical, Creative, Business, Public Services, or
+        Skilled Trades) might be the most fulfilling for you. <br /><br />Take
+        your time and answer honestly to get the most accurate results!"
+      </p>
+      <button onclick="showQuestion()">Begin Survey</button>
+    </header>
+    <section id="questionPage">
+      <fieldset>
+        <legend id="question">question</legend>
+        <label for=" 1"
+          ><input
+            onclick="nextQuestion();"
+            type="radio"
+            name="Answer"
+            class="line"
+            value="1"
+          />
+          Strongly Disagree</label
+        >
+        <label for=" 2"
+          ><input
+            onclick="nextQuestion();"
+            type="radio"
+            name="Answer"
+            class="line"
+            value="2"
+          />
+          Disagree
+        </label>
+        <label for=" 3"
+          ><input
+            onclick="nextQuestion();"
+            type="radio"
+            name="Answer"
+            class="line"
+            value="3"
+          />
+          Neutral
+        </label>
+        <label for=" 4"
+          ><input
+            onclick="nextQuestion();"
+            type="radio"
+            name="Answer"
+            class="line"
+            value="4"
+          />
+          Agree
+        </label>
+        <label for=" 5"
+          ><input
+            onclick="nextQuestion();"
+            type="radio"
+            name="Answer"
+            class="line"
+            value="5"
+          />
+          Strongly Agree</label
+        >
+      </fieldset>
+    </section>
+    <section id="resultPage">
+      <h1>Your Result</h1>
+      <div id="resultPages">
+        <div class="stats">
+          <h6>Medical</h6>
+          <p id="med">🟩🟩🟩🟩🟩🟩</p>
+        </div>
+        <div class="stats">
+          <h6>Technical</h6>
+          <p id="tec">🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩</p>
+        </div>
+        <div class="stats">
+          <h6>Creative</h6>
+          <p id="cre">🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩</p>
+        </div>
+        <div class="stats">
+          <h6>Business</h6>
+          <p id="bus">🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩</p>
+        </div>
+        <div class="stats">
+          <h6>Public Services</h6>
+          <p id="pub">🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩</p>
+        </div>
+        <div class="stats">
+          <h6>Skilled Traders</h6>
+          <p id="ski">🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩</p>
+        </div>
+      </div>
+      <h3>You are most suited for a career in <span id="urResult">ji</span></h3>
+      <div id="carButton">
+        <button onclick="careerSlide()">Show Career Options</button>
+      </div>
+    </section>
+    <section id="final">
+      <h2>
+        Here are 10 Career Options in
+        <span id="uResult">Medical</span>
+      </h2>
+      <div id="careerSlide">
+        <div id="cards">
+          <h2 class="info">Doctor</h2>
+          <p>
+            Description:
+            <span class="info"
+              >Diagnoses and treats illnesses and injuries.</span
+            >
+          </p>
+          <p>
+            required skills:
+            <span class="info"
+              >["Medical Knowledge", "Empathy", "Decision-Making"]</span
+            >
+          </p>
+          <p>education: <span class="info">MBBS</span></p>
+          <p>average salary(inr): <span class="info">₹6–18 LPA</span></p>
+          <p>industry: <span class="info">Healthcare</span></p>
+          <a
+            class="link"
+            target="_blank"
+            href="https://www.google.com/search?q=YOUR_QUERY"
+            >For More Click Here</a
+          >
+        </div>
+        <div id="cards">
+          <h2 class="info">Doctor</h2>
+          <p>
+            Description:
+            <span class="info"
+              >Diagnoses and treats illnesses and injuries.</span
+            >
+          </p>
+          <p>
+            required skills:
+            <span class="info"
+              >["Medical Knowledge", "Empathy", "Decision-Making"]</span
+            >
+          </p>
+          <p>education: <span class="info">MBBS</span></p>
+          <p>average salary(inr): <span class="info">₹6–18 LPA</span></p>
+          <p>industry: <span class="info">Healthcare</span></p>
+          <a class="link" target="_blank" href="www.Youtube.com"
+            >For More Click Here</a
+          >
+        </div>
+        <div id="cards">
+          <h2 class="info">Doctor</h2>
+          <p>
+            Description:
+            <span class="info"
+              >Diagnoses and treats illnesses and injuries.</span
+            >
+          </p>
+          <p>
+            required skills:
+            <span class="info"
+              >["Medical Knowledge", "Empathy", "Decision-Making"]</span
+            >
+          </p>
+          <p>education: <span class="info">MBBS</span></p>
+          <p>average salary(inr): <span class="info">₹6–18 LPA</span></p>
+          <p>industry: <span class="info">Healthcare</span></p>
+          <a class="link" target="_blank" href="www.Youtube.com"
+            >For More Click Here</a
+          >
+        </div>
+        <div id="cards">
+          <h2 class="info">Doctor</h2>
+          <p>
+            Description:
+            <span class="info"
+              >Diagnoses and treats illnesses and injuries.</span
+            >
+          </p>
+          <p>
+            required skills:
+            <span class="info"
+              >["Medical Knowledge", "Empathy", "Decision-Making"]</span
+            >
+          </p>
+          <p>education: <span class="info">MBBS</span></p>
+          <p>average salary(inr): <span class="info">₹6–18 LPA</span></p>
+          <p>industry: <span class="info">Healthcare</span></p>
+          <a class="link" target="_blank" href="www.Youtube.com"
+            >For More Click Here</a
+          >
+        </div>
+        <div id="cards">
+          <h2 class="info">Doctor</h2>
+          <p>
+            Description:
+            <span class="info"
+              >Diagnoses and treats illnesses and injuries.</span
+            >
+          </p>
+          <p>
+            required skills:
+            <span class="info"
+              >["Medical Knowledge", "Empathy", "Decision-Making"]</span
+            >
+          </p>
+          <p>education: <span class="info">MBBS</span></p>
+          <p>average salary(inr): <span class="info">₹6–18 LPA</span></p>
+          <p>industry: <span class="info">Healthcare</span></p>
+          <a class="link" target="_blank" href="www.Youtube.com"
+            >For More Click Here</a
+          >
+        </div>
+        <div id="cards">
+          <h2 class="info">Doctor</h2>
+          <p>
+            Description:
+            <span class="info"
+              >Diagnoses and treats illnesses and injuries.</span
+            >
+          </p>
+          <p>
+            required skills:
+            <span class="info"
+              >["Medical Knowledge", "Empathy", "Decision-Making"]</span
+            >
+          </p>
+          <p>education: <span class="info">MBBS</span></p>
+          <p>average salary(inr): <span class="info">₹6–18 LPA</span></p>
+          <p>industry: <span class="info">Healthcare</span></p>
+          <a class="link" target="_blank" href="www.Youtube.com"
+            >For More Click Here</a
+          >
+        </div>
+        <div id="cards">
+          <h2 class="info">Doctor</h2>
+          <p>
+            Description:
+            <span class="info"
+              >Diagnoses and treats illnesses and injuries.</span
+            >
+          </p>
+          <p>
+            required skills:
+            <span class="info"
+              >["Medical Knowledge", "Empathy", "Decision-Making"]</span
+            >
+          </p>
+          <p>education: <span class="info">MBBS</span></p>
+          <p>average salary(inr): <span class="info">₹6–18 LPA</span></p>
+          <p>industry: <span class="info">Healthcare</span></p>
+          <a class="link" target="_blank" href="www.Youtube.com"
+            >For More Click Here</a
+          >
+        </div>
+        <div id="cards">
+          <h2 class="info">Doctor</h2>
+          <p>
+            Description:
+            <span class="info"
+              >Diagnoses and treats illnesses and injuries.</span
+            >
+          </p>
+          <p>
+            required skills:
+            <span class="info"
+              >["Medical Knowledge", "Empathy", "Decision-Making"]</span
+            >
+          </p>
+          <p>education: <span class="info">MBBS</span></p>
+          <p>average salary(inr): <span class="info">₹6–18 LPA</span></p>
+          <p>industry: <span class="info">Healthcare</span></p>
+          <a class="link" target="_blank" href="www.Youtube.com"
+            >For More Click Here</a
+          >
+        </div>
+        <div id="cards">
+          <h2 class="info">Doctor</h2>
+          <p>
+            Description:
+            <span class="info"
+              >Diagnoses and treats illnesses and injuries.</span
+            >
+          </p>
+          <p>
+            required skills:
+            <span class="info"
+              >["Medical Knowledge", "Empathy", "Decision-Making"]</span
+            >
+          </p>
+          <p>education: <span class="info">MBBS</span></p>
+          <p>average salary(inr): <span class="info">₹6–18 LPA</span></p>
+          <p>industry: <span class="info">Healthcare</span></p>
+          <a class="link" target="_blank" href="www.Youtube.com"
+            >For More Click Here</a
+          >
+        </div>
+        <div id="cards">
+          <h2 class="info">Doctor</h2>
+          <p>
+            Description:
+            <span class="info"
+              >Diagnoses and treats illnesses and injuries.</span
+            >
+          </p>
+          <p>
+            required skills:
+            <span class="info"
+              >["Medical Knowledge", "Empathy", "Decision-Making"]</span
+            >
+          </p>
+          <p>education: <span class="info">MBBS</span></p>
+          <p>average salary(inr): <span class="info">₹6–18 LPA</span></p>
+          <p>industry: <span class="info">Healthcare</span></p>
+          <a class="link" target="_blank" href="www.Youtube.com"
+            >For More Click Here</a
+          >
+        </div>
+      </div>
+    </section>
+    <script src="script.js"></script>
+  </body>
+</html>

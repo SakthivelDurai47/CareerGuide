@@ -1,0 +1,169 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: #313131;
+  color: whitesmoke;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  box-sizing: border-box;
+  height: auto;
+  transition: all 0.4s ease-in-out;
+}
+
+header {
+  background-color: rgba(0, 0, 0, 0.5);
+  padding: 30px 40px;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+  border-radius: 20px;
+  margin: 30px;
+  text-align: center;
+}
+header h1 {
+  color: rgba(0, 255, 0, 0.7);
+}
+header p {
+  line-height: 25px;
+}
+button {
+  font-weight: bold;
+  color: #313131;
+  background: rgba(0, 255, 0, 0.7);
+  margin: 30px;
+  border-radius: 5px;
+  padding: 15px;
+  border: none;
+  transition: all 0.4s ease-in-out;
+}
+button:hover {
+  color: white;
+  scale: 1.1;
+}
+section {
+  display: none;
+}
+legend {
+  text-align: center;
+  font-size: larger;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+#questionPage {
+  background-color: rgba(0, 0, 0, 0.5);
+  padding: 30px 40px;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+  border-radius: 20px;
+  max-width: 500px;
+  width: 70vw;
+  margin-top: 80px;
+}
+#questionPage legend {
+  width: auto;
+  height: 50px;
+  color: rgba(0, 255, 0, 0.7);
+  margin-bottom: 50px;
+}
+fieldset {
+  border: none;
+  font-size: large;
+}
+input {
+  margin: 8px;
+}
+label {
+  display: block;
+  margin: 0.5rem 0;
+}
+.stats {
+  display: grid;
+  grid-template-columns: 0.4fr 1fr;
+  max-width: 600px;
+  margin: -5px;
+}
+#resultPages {
+  background-color: rgba(0, 0, 0, 0.5);
+  padding-top: 30px;
+  padding-bottom: 30px;
+  padding-left: 15px;
+  padding-right: 30px;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+  border-radius: 20px;
+  display: flex;
+  flex-direction: column;
+}
+#resultPages h6 {
+  background-color: rgba(0, 255, 0, 0.7);
+  color: whitesmoke;
+  margin: 16px;
+  width: 85px;
+  text-align: center;
+  font-weight: bold;
+  padding: 5px;
+  border: 1px solid black;
+  border-radius: 3px;
+}
+#resultPages p {
+  background-color: whitesmoke;
+  border-radius: 3px;
+  padding: 2px;
+  width: 220px;
+  border: 1px solid rgba(0, 255, 0, 0.518);
+}
+#resultPage {
+  display: none;
+}
+#resultPage h1,
+h3 {
+  text-align: center;
+}
+#urResult,
+#uResult {
+  color: rgba(0, 255, 0, 0.7);
+  font-weight: bold;
+}
+
+#carButton {
+  text-align: center;
+}
+#final {
+  display: none;
+}
+#final h2 {
+  text-align: center;
+  margin: 30px;
+}
+#careerSlide {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+#cards {
+  background-color: rgba(0, 0, 0, 0.5);
+  padding: 30px 40px;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+  border-radius: 20px;
+  color: whitesmoke;
+  width: 80%;
+  margin: 20px;
+  transition: all 0.4s ease-in-out;
+}
+#cards:hover {
+  scale: 1.03;
+}
+#cards h2 {
+  color: rgba(0, 255, 0, 0.7);
+  margin-top: -1px;
+}
+#cards p {
+  font-weight: bold;
+}
+#cards span {
+  font-weight: 200;
+}
+
+.link {
+  color: rgb(0, 172, 0);
+}
